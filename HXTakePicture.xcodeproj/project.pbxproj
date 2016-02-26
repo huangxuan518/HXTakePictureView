@@ -15,6 +15,7 @@
 		30292EC81C7FED4E00C7C0B9 /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30292EC41C7FED4E00C7C0B9 /* HXViewController.m */; };
 		30292EC91C7FED4E00C7C0B9 /* HXCustomCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30292EC61C7FED4E00C7C0B9 /* HXCustomCameraView.m */; };
 		30292ECA1C7FED4E00C7C0B9 /* HXCustomCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30292EC71C7FED4E00C7C0B9 /* HXCustomCameraView.xib */; };
+		30292ECD1C7FF4AF00C7C0B9 /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30292ECC1C7FF4AF00C7C0B9 /* xiaoguo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		30292EC51C7FED4E00C7C0B9 /* HXCustomCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraView.h; sourceTree = "<group>"; };
 		30292EC61C7FED4E00C7C0B9 /* HXCustomCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraView.m; sourceTree = "<group>"; };
 		30292EC71C7FED4E00C7C0B9 /* HXCustomCameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXCustomCameraView.xib; sourceTree = "<group>"; };
+		30292ECC1C7FF4AF00C7C0B9 /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		30292EA01C7FECFF00C7C0B9 = {
 			isa = PBXGroup;
 			children = (
+				30292ECC1C7FF4AF00C7C0B9 /* xiaoguo.gif */,
 				30292EAB1C7FECFF00C7C0B9 /* HXTakePicture */,
 				30292EAA1C7FECFF00C7C0B9 /* Products */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30292ECD1C7FF4AF00C7C0B9 /* xiaoguo.gif in Resources */,
 				30292ECA1C7FED4E00C7C0B9 /* HXCustomCameraView.xib in Resources */,
 				30292EBC1C7FED0000C7C0B9 /* LaunchScreen.storyboard in Resources */,
 				30292EB91C7FED0000C7C0B9 /* Assets.xcassets in Resources */,
@@ -275,7 +279,7 @@
 				INFOPLIST_FILE = HXTakePicture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXTakePicture;
+				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -288,7 +292,7 @@
 				INFOPLIST_FILE = HXTakePicture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXTakePicture;
+				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -312,6 +316,7 @@
 				30292EC21C7FED0000C7C0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

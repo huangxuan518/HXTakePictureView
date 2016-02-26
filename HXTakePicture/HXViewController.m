@@ -68,7 +68,7 @@
  */
 - (UIView *)customViewForImagePicker:(UIImagePickerController *)imagePicker {
     
-    _customCameraView = [[[UINib nibWithNibName:@"CustomCameraView" bundle:nil]instantiateWithOwner:nil options:nil]objectAtIndex:0];
+    _customCameraView = [[[UINib nibWithNibName:@"HXCustomCameraView" bundle:nil]instantiateWithOwner:nil options:nil]objectAtIndex:0];
     _customCameraView.tagBlock = ^(NSInteger tag)
     {
         if (tag == 10) {
